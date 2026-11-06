@@ -1,0 +1,9 @@
+schema: schema.graphql
+skip_validation: true
+
+models:
+ Account:
+  model: github.com/ASH-ashim/Go_microservices/graphql.Account
+  fields:
+   orders:
+    resolver: true
